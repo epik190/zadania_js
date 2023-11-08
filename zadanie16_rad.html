@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> proste obliczenia </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div style="color: red;font-size: 50px;">
+			<script language="JavaScript">
+				var liczba1=prompt("podaj a=","");
+				var a_rad=parseFloat(liczba1)
+				var liczba2=prompt("podaj b=","");
+				var b_rad=parseFloat(liczba2)				
+				document.write("a="+a_rad+"<br>");
+				document.write("b="+b_rad+"<br>");
+				document.write("("+a_rad+"+"+b_rad+")^3=");
+				document.write(a_rad+"^"+"3+3*"+"("+a_rad+"^2"+")"+"*"+b_rad+"+3*"+a_rad+"*"+"("+b_rad+"^2"+")"+"+"+b_rad+"^3"+"=");
+				document.write(a_rad*a_rad*a_rad+"+"+3*(a_rad*a_rad)*b_rad+"+"+3*a_rad*(b_rad*b_rad)+"+"+b_rad*b_rad*b_rad+"="+(a_rad+b_rad)*(a_rad+b_rad)*(a_rad+b_rad));
+			</script>
+		</div>
+	</body>
+</html>

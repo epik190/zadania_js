@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Raducha zad30 </title>
+		<script type="text/javascript">
+			var telefon = 
+			{
+				marka: 'Iphone',
+				model: '14',
+				system: 'IOS',
+				telefon_wyswietl_raducha: function()
+				{
+					document.write(this.marka+' '+this.model+'<br>'+'System:'+' '+this.system)
+				}
+			}
+			telefon.telefon_wyswietl_raducha();
+			telefon.data_wydania=2022;
+			telefon.telefon_pokaz_raducha = function() 
+			{
+				alert('Wydano w: '+this.data_wydania+' roku')
+			}
+			telefon.telefon_pokaz_raducha();
+		</script>
+	</head>
+	<body>
+		<br>
+		programowanie obiektowe
+	</body>
+</html>

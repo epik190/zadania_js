@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title> zadanie15 kod </title>
+	</head>
+	<body>
+		<p> KOD HTML </p>
+		<textarea cols="90" rows="25">
+<html>
+<head>
+<script type="text/javascript">
+function telefon(marka_d,model_d,stan_d)
+{
+this.marka=marka_d;
+this.stan=stan_d;
+this.model=model_d;
+}
+telefon.prototype.wypisz_raducha = function () 
+{
+alert(this.marka + ' ' + this.model+ ' ' + this.stan);
+};
+var telefon1 = new telefon('Iphone', '14 pro', 'stan idealny'); 
+var telefon2 = new telefon('Samsung', 'A54', 'stan używany');
+telefon1.wypisz_raducha(); 
+telefon2.wypisz_raducha();
+document.write("dostęp do właściwości:"+"<br>");
+document.write("telefon pierwszy:"+" "+telefon1.marka+" "+telefon1.model+" - "+telefon1.stan);
+</script>
+</head>
+<body>
+<br>
+programowanie obiektowe
+</body>
+</html>
+		</textarea>
+	</body>
+</html>
